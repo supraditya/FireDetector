@@ -7,6 +7,8 @@ model=load_model('val94.h5')
 cap=cv2.VideoCapture('Fire video 1.mp4')
 while True:
 	ret,frame=cap.read()
+	if not ret:
+		break;
 	frame1=fe.enhance(frame)
 	a=cv2.resize(frame1,(50,50))
 	a=a.reshape(1,50,50,3)
@@ -20,7 +22,7 @@ while True:
 	else:
 		print(p,end=" ");
 		print("FIRE!!!")
-	if cv2.waitKey(1) & 0xFF == ord('q'):
+	if cv2.waitKey(1000//24) & 0xFF == ord('q'):
 		break
 cap.release()
 cv2.destroyAllWindows()
