@@ -2,7 +2,7 @@ import cv2
 import keras
 from keras.models import load_model
 import frame_enhancer as fe
-model=load_model('val94.h5')
+model=load_model('val99.h5')
 
 cap=cv2.VideoCapture('Fire video 1.mp4')
 while True:

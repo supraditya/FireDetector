@@ -14,4 +14,4 @@ def generate(source,src_n:int,dest,trans_per_image:int):
             print("Generation number : %i"%x)
             x+=1
     print("Done")
-generate("New Fire Images",110,"Fire 1",10)
+generate("new normal",542,"No Fire 1",10)
