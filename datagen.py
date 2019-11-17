@@ -1,3 +1,8 @@
+import sys
+
+if not sys.warnoptions:
+    import warnings
+    warnings.simplefilter("ignore")
 import keras
 from keras.preprocessing.image import ImageDataGenerator
 import cv2

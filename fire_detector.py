@@ -1,4 +1,9 @@
 import cv2 
+import sys
+
+if not sys.warnoptions:
+    import warnings
+    warnings.simplefilter("ignore")
 import keras
 from keras.models import load_model
 import frame_enhancer as fe
