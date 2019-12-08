@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35cb928-b406-4a1c-a8c4-39694f196545" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fire_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/fire_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="f35cb928-b406-4a1c-a8c4-39694f196545" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +165,7 @@
       <workItem from="1572525249453" duration="657000" />
       <workItem from="1573901989598" duration="3141000" />
       <workItem from="1573905694941" duration="34000" />
+      <workItem from="1574013137489" duration="4000" />
     </task>
     <servers />
   </component>
