@@ -1,0 +1,8 @@
+*.jpg
+*.h5
+*.mp4
+*.zip
+*.txt
+.idea
+.ipynb_checkpoints
+__pycache__
