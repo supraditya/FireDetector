@@ -12,6 +12,7 @@ import os
 def generate(source,dest,trans_per_image:int):
     x=1
     l=glob.glob("%s/*.jpg"%source)
+    print(l)
     src_n=len(l)
     if not os.path.exists(dest):
         os.makedirs(dest)
@@ -25,6 +26,5 @@ def generate(source,dest,trans_per_image:int):
             print("Generation number : %i"%x,end='\r')
             x+=1
     print("\nDone")
-generate("dataset/train/melanoma","dataset/train/melanoma_new",10)
-generate("dataset/train/nevus","dataset/train/nevus_new",10)
-generate("dataset/train/seborrheic_keratosis","dataset/train/seborrheic_keratosis_new",10)
+generate("Fire images","augmented fire",10)
+generate("Normal Images 1","augmented no fire",10)
