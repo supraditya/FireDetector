@@ -7,7 +7,7 @@ if not sys.warnoptions:
 import keras
 from keras.models import load_model
 import frame_enhancer as fe
-model=load_model('tes.h5')
+model=load_model('val96p.h5')
 
 cap=cv2.VideoCapture('Fire video 1.mp4')
 while True:
@@ -22,11 +22,11 @@ while True:
 	cv2.imshow('Enhanced video',frame1);
 	s=p[0]
 	if s[0]>s[1]:
-		print(p,end=" ");
-		print("No Fire detected")
+		print("No Fire detected",end=" ")
+		print(p);
 	else:
-		print(p,end=" ");
-		print("FIRE!!!")
+		print("FIRE!!!",end=" ")
+		print(p);
 	if cv2.waitKey(1000//24) & 0xFF == ord('q'):
 		break
 cap.release()

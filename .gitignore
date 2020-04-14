@@ -6,3 +6,6 @@
 .idea
 .ipynb_checkpoints
 __pycache__
+maker.py
+*.Athena
+.gitignore
